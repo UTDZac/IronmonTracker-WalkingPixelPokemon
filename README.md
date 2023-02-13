@@ -13,7 +13,6 @@
 3) On the Extensions menu, enable "**Allow custom code to run**" (if it is currently disabled)
 4) Click the "**Refresh**" button at the bottom to check for newly installed extensions
 5) Then click on the "**Walking Pixel Pokémon**" button to enable the extension
-   - You can click this button again to disable it
    - If you don't see anything in the extensions list, double-check the extension files are installed in the right location. Refer to the Tracker wiki documentation (at the bottom) if you need additional help
    > ![image](https://user-images.githubusercontent.com/4258818/218176620-ae05812c-672e-4097-a1d8-f80943e98ba0.png)
 
