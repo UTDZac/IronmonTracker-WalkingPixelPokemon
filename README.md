@@ -3,7 +3,6 @@
 
 ## Requirements:
 - [Ironmon-Tracker v7.3.0](https://github.com/besteon/Ironmon-Tracker) or higher
-- The [Animated Pokémon Pop-out](https://github.com/besteon/Ironmon-Tracker/wiki/Tracker-Add-ons#animated-pokemon-pop-out) add-on
 
 ## Install:
 0) Download the [latest release](https://github.com/UTDZac/IronmonTracker-WalkingPixelPokemon/releases/latest) of this extension from the GitHub's Releases page
