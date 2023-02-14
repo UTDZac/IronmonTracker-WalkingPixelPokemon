@@ -22,6 +22,7 @@
 
 ## Usage:
 - While enabled, this extension temporarily replaces the animated Pokémon sprites that appear on the pop-out window with new ones.
+- To setup transparency for the pop-out window for stream overlays, refer to the Animated Pokémon Pop-out add-on [usage notes](https://github.com/besteon/Ironmon-Tracker/wiki/Tracker-Add-ons#animated-pokemon-pop-out).
 - These new animated Pokémon sprites are Walking Pixel variants take from Heart Gold / Soul Silver.
 
 ## Custom Extensions Wiki:
