@@ -1,6 +1,6 @@
 local function WalkingPixelPokemon()
 	local self = {
-		version = "2.0",
+		version = "2.1",
 		name = "Walking Pixel Pokémon",
 		author = "Eiphzor",
 		description = "Replaces the Animated " .. Constants.Words.POKEMON .. " Pop-out sprites with walking pixel variants from HGSS.",
@@ -174,10 +174,6 @@ local function WalkingPixelPokemon()
 			return
 		end
 
-		-- Force this feature to be enabled but it redirects to using the walking pixel icons
-		self.originalAnimatedOption = (Options["Animated Pokemon popout"] == true)
-		Options["Animated Pokemon popout"] = true
-
 		self.setIconFolder(self.IconFolders.Original)
 		self.loadSettings()
 		self.setupImagePathOverrides()
@@ -186,11 +182,6 @@ local function WalkingPixelPokemon()
 
 	-- Executed only once: when the extension is disabled by the user, necessary to undo any customizations, if able
 	function self.unload()
-		-- Restores the original setting
-		if self.originalAnimatedOption ~= nil then
-			Options["Animated Pokemon popout"] = (self.originalAnimatedOption == true)
-		end
-
 		self.removeImagePathOverrides()
 		self.hardRefreshViewedPokemon()
 	end
